@@ -14,10 +14,11 @@ public class StudentMapper {
 		Student student = new Student();
 		student.setName(studentDto.name());
 		student.setEmail(studentDto.email());
+		student.setPassword(studentDto.password());
 		return student;
 	}
 
 	public StudentResponseDto toStudentResponseDto(Student student){
-		return new StudentResponseDto(student.getName());
+		return new StudentResponseDto(student.getId(), student.getName());
 	}
 }

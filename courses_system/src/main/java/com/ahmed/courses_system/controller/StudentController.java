@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@RequestMapping("/student")
 public class StudentController {
 
 	private final StudentService studentService;
@@ -23,18 +24,12 @@ public class StudentController {
 		this.studentProfileService = studentProfileService;
 	}
 
-	@PostMapping("/student")
-	public ResponseEntity<?> addStudent(@Valid @RequestBody StudentDto studentDto){
-		studentService.addStudent(studentDto);
-		return ResponseEntity.status(201).body("Student added successfully");
-	}
-
-	@GetMapping("/student")
+	@GetMapping
 	public List<StudentResponseDto> getAllStudents(){
 		return studentService.getAllStudents();
 	}
 
-	@DeleteMapping("/student/{student_id}")
+	@DeleteMapping("/{student_id}")
 	public ResponseEntity<?> deleteStudent(@PathVariable("student_id") Integer id){
 		studentService.deleteStudent(id);
 		return ResponseEntity.status(200).body("Student deleted successfully");

@@ -6,6 +6,7 @@ import com.ahmed.courses_system.dtos.StudentResponseDto;
 import com.ahmed.courses_system.mapper.StudentMapper;
 import com.ahmed.courses_system.model.Student;
 import com.ahmed.courses_system.repository.StudentRepository;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -19,10 +20,13 @@ public class StudentService {
 
 	private final StudentProfileService studentProfileService;
 
-	public StudentService(StudentMapper studentMapper, StudentRepository studentRepository, StudentProfileService studentProfileService) {
+	private final PasswordEncoder passwordEncoder;
+
+	public StudentService(StudentMapper studentMapper, StudentRepository studentRepository, StudentProfileService studentProfileService, PasswordEncoder passwordEncoder) {
 		this.studentMapper = studentMapper;
 		this.studentRepository = studentRepository;
 		this.studentProfileService = studentProfileService;
+		this.passwordEncoder = passwordEncoder;
 	}
 
 	public void addStudent(StudentDto studentDto){
@@ -31,6 +35,7 @@ public class StudentService {
 		}
 
 		Student student = studentMapper.toStudent(studentDto);
+		student.setPassword(passwordEncoder.encode(student.getPassword()));
 		student = studentRepository.save(student);
 		studentProfileService.createProfile(student);
 	}

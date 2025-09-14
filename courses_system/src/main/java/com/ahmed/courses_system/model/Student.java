@@ -1,6 +1,5 @@
 package com.ahmed.courses_system.model;
 
-
 import jakarta.persistence.*;
 
 import java.util.ArrayList;
@@ -20,18 +19,30 @@ public class Student {
 	@Column(unique = true)
 	private String email;
 
+	private String password;
+
 	@OneToMany(mappedBy = "student")
 	private List<Enrollment> enrollments = new ArrayList<>();
 
 	@OneToOne(mappedBy = "student", cascade = CascadeType.ALL)
 	private StudentProfile studentProfile;
 
+	@ManyToMany(fetch = FetchType.EAGER)
+	@JoinTable(
+			name = "student_role",
+			joinColumns = @JoinColumn(name = "student_id"),
+			inverseJoinColumns = @JoinColumn(name = "role_id")
+	)
+	private Set<Role> roles;
+
 	public Student() {
 	}
 
-	public Student(String name, String email) {
+	public Student(String name, String email, String password) {
 		this.name = name;
 		this.email = email;
+		this.password = password;
+		roles = new HashSet<>();
 	}
 
 	public Integer getId() {
@@ -76,5 +87,21 @@ public class Student {
 
 	public void setStudentProfile(StudentProfile studentProfile) {
 		this.studentProfile = studentProfile;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public Set<Role> getRoles() {
+		return roles;
+	}
+
+	public void setRoles(Set<Role> roles) {
+		this.roles = roles;
 	}
 }

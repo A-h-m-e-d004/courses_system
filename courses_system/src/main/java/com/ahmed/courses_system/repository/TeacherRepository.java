@@ -1,11 +1,11 @@
 package com.ahmed.courses_system.repository;
 
-import com.ahmed.courses_system.model.Student;
+import com.ahmed.courses_system.model.Teacher;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
 
-public interface StudentRepository extends JpaRepository<Student, Integer> {
+public interface TeacherRepository extends JpaRepository<Teacher, Integer> {
 	boolean existsByEmail(String email);
-	Optional<Student> findByName(String name);
+	Optional<Teacher> findByName(String name);
 }

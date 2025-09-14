@@ -8,6 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
+@RequestMapping("/enroll")
 public class RegistrationController {
 
 	private final RegistrationService registrationService;
@@ -16,18 +17,18 @@ public class RegistrationController {
 		this.registrationService = registrationService;
 	}
 
-	@PostMapping("/enroll")
+	@PostMapping
 	public ResponseEntity<?> enrollStudentInCourse(@Valid @RequestBody EnrollDto enrollDto){
 		registrationService.enrollStudentInCourse(enrollDto);
 		return ResponseEntity.status(201).body("Student enrolled in course successfully");
 	}
 
-	@GetMapping("/enroll-courses/{student_id}")
+	@GetMapping("/{student_id}")
 	public ResponseEntity<?> getEnrolledCoursesForStudent(@PathVariable("student_id") Integer studentId){
 		return ResponseEntity.status(200).body(registrationService.getEnrolledCoursesForStudent(studentId));
 	}
 
-	@DeleteMapping("/enroll")
+	@DeleteMapping
 	public ResponseEntity<?> unEnrollStudentFromCourse(@Valid @RequestBody EnrollDto enrollDto){
 		registrationService.unEnrollStudentFromCourse(enrollDto);
 		return ResponseEntity.status(200).body("Student unenrolled from course successfully");
