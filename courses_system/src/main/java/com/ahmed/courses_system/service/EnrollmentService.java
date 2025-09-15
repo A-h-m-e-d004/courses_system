@@ -16,15 +16,12 @@ public class EnrollmentService {
 
 	@Transactional
 	public void updateGrade(UpdateGradeDto updateGradeDto){
-		if(!enrollmentRepository.existsByStudentIdAndCourseId(updateGradeDto.studentId(), updateGradeDto.courseId())){
-			throw new IllegalArgumentException("Student is not enrolled in this course");
-		}
 		if(updateGradeDto.grade() < 0 || updateGradeDto.grade() > 100){
 			throw new IllegalArgumentException("Grade must be between 0 and 100");
 		}
-		enrollmentRepository.findByStudentIdAndCourseId(updateGradeDto.studentId(), updateGradeDto.courseId()).ifPresent(enrollment -> {
+		enrollmentRepository.findByStudentIdAndCourseId(updateGradeDto.studentId(), updateGradeDto.courseId()).ifPresentOrElse(enrollment -> {
 			enrollment.setGrade(updateGradeDto.grade());
 			enrollmentRepository.save(enrollment);
-		});
+		}, () -> {throw new IllegalArgumentException("Student is not enrolled in this course");});
 	}
 }

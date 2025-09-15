@@ -48,10 +48,8 @@ public class RegistrationService {
 	@Transactional
 	public void unEnrollStudentFromCourse(EnrollDto enrollDto){
 
-		if (!enrollmentRepository.existsByStudentIdAndCourseId(enrollDto.studentId(), enrollDto.courseId())){
-			throw new IllegalArgumentException("Student is not enrolled in this course");
-		}
-		enrollmentRepository.findByStudentIdAndCourseId(enrollDto.studentId(), enrollDto.courseId()).ifPresent(enrollmentRepository::delete);
+		enrollmentRepository.findByStudentIdAndCourseId(enrollDto.studentId(), enrollDto.courseId())
+				.ifPresentOrElse(enrollmentRepository::delete, () -> {throw new IllegalArgumentException("Student is not enrolled in this course");});
 	}
 
 	public List<CourseDto> getEnrolledCoursesForStudent(int studentId){

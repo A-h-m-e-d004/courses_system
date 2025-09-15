@@ -2,6 +2,7 @@ package com.ahmed.courses_system.mapper;
 
 
 import com.ahmed.courses_system.dtos.CourseDto;
+import com.ahmed.courses_system.dtos.CourseResponseDto;
 import com.ahmed.courses_system.model.Course;
 import org.springframework.stereotype.Component;
 
@@ -18,5 +19,9 @@ public class CourseMapper {
 		return new CourseDto(
 				course.getTitle()
 		);
+	}
+
+	public CourseResponseDto toCourseResponseDto(Course course){
+		return new CourseResponseDto(course.getId(), course.getTitle());
 	}
 }

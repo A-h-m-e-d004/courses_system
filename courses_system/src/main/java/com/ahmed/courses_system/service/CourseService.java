@@ -1,6 +1,7 @@
 package com.ahmed.courses_system.service;
 
 import com.ahmed.courses_system.dtos.CourseDto;
+import com.ahmed.courses_system.dtos.CourseResponseDto;
 import com.ahmed.courses_system.mapper.CourseMapper;
 import com.ahmed.courses_system.model.Course;
 import com.ahmed.courses_system.repository.CourseRepository;
@@ -36,7 +37,7 @@ public class CourseService {
 		return courseMapper.toCourseDto(course);
 	}
 
-	public List<CourseDto> getAllCourses(){
-		return courseRepository.findAll().stream().map(courseMapper::toCourseDto).toList();
+	public List<CourseResponseDto> getAllCourses(){
+		return courseRepository.findAll().stream().map(courseMapper::toCourseResponseDto).toList();
 	}
 }

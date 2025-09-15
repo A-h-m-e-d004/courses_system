@@ -1,21 +1,21 @@
-2025-09-14T18:19:31.787+03:00  INFO 11050 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : Starting CoursesSystemApplication using Java 21.0.7 with PID 11050 (/home/ahmed/mySpringProject/courses_system/courses_system/target/classes started by ahmed in /home/ahmed/mySpringProject/courses_system)
-2025-09-14T18:19:32.015+03:00  INFO 11050 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-09-14T18:19:40.322+03:00  INFO 11050 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-14T18:19:40.995+03:00  INFO 11050 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 605 ms. Found 6 JPA repository interfaces.
-2025-09-14T18:19:46.638+03:00  INFO 11050 --- [courses_system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-09-14T18:19:46.758+03:00  INFO 11050 --- [courses_system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-09-14T18:19:46.764+03:00  INFO 11050 --- [courses_system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-09-14T18:19:47.208+03:00  INFO 11050 --- [courses_system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-09-14T18:19:47.210+03:00  INFO 11050 --- [courses_system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 14198 ms
-2025-09-14T18:19:48.460+03:00  INFO 11050 --- [courses_system] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-14T18:19:48.899+03:00  INFO 11050 --- [courses_system] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
-2025-09-14T18:19:49.077+03:00  INFO 11050 --- [courses_system] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-09-14T18:19:51.306+03:00  INFO 11050 --- [courses_system] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-14T18:19:51.504+03:00  INFO 11050 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-09-14T18:19:54.531+03:00  INFO 11050 --- [courses_system] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a466dd
-2025-09-14T18:19:54.538+03:00  INFO 11050 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-09-14T18:19:54.913+03:00  WARN 11050 --- [courses_system] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-09-14T18:19:55.137+03:00  INFO 11050 --- [courses_system] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-09-15T11:08:30.888+03:00  INFO 4438 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : Starting CoursesSystemApplication using Java 21.0.7 with PID 4438 (/home/ahmed/mySpringProject/courses_system/courses_system/target/classes started by ahmed in /home/ahmed/mySpringProject/courses_system)
+2025-09-15T11:08:30.956+03:00  INFO 4438 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-09-15T11:08:38.801+03:00  INFO 4438 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-15T11:08:39.295+03:00  INFO 4438 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 408 ms. Found 6 JPA repository interfaces.
+2025-09-15T11:08:44.094+03:00  INFO 4438 --- [courses_system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-15T11:08:44.281+03:00  INFO 4438 --- [courses_system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-15T11:08:44.285+03:00  INFO 4438 --- [courses_system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-15T11:08:44.629+03:00  INFO 4438 --- [courses_system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-15T11:08:44.634+03:00  INFO 4438 --- [courses_system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 13101 ms
+2025-09-15T11:08:45.657+03:00  INFO 4438 --- [courses_system] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-15T11:08:46.101+03:00  INFO 4438 --- [courses_system] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-15T11:08:46.408+03:00  INFO 4438 --- [courses_system] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-15T11:08:48.236+03:00  INFO 4438 --- [courses_system] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-15T11:08:48.376+03:00  INFO 4438 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-15T11:08:50.985+03:00  INFO 4438 --- [courses_system] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5ee6fdc4
+2025-09-15T11:08:50.994+03:00  INFO 4438 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-15T11:08:51.631+03:00  WARN 4438 --- [courses_system] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-15T11:08:51.775+03:00  INFO 4438 --- [courses_system] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 16.9
@@ -23,48 +23,45 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-09-14T18:20:03.541+03:00  INFO 11050 --- [courses_system] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-14T18:20:06.646+03:00  INFO 11050 --- [courses_system] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-14T18:20:10.457+03:00  INFO 11050 --- [courses_system] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-09-14T18:20:14.500+03:00  WARN 11050 --- [courses_system] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-09-14T18:20:14.849+03:00  WARN 11050 --- [courses_system] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+2025-09-15T11:08:59.379+03:00  INFO 4438 --- [courses_system] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-15T11:09:03.076+03:00  INFO 4438 --- [courses_system] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-15T11:09:06.993+03:00  INFO 4438 --- [courses_system] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-15T11:09:10.098+03:00  WARN 4438 --- [courses_system] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-15T11:09:10.426+03:00  WARN 4438 --- [courses_system] [main] .s.s.UserDetailsServiceAutoConfiguration : 
 
-Using generated security password: 240465bf-1517-4f13-a47b-358e926a13ea
+Using generated security password: fbd32c9a-715b-4af0-b67c-23772a2df867
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-2025-09-14T18:20:14.927+03:00  INFO 11050 --- [courses_system] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-09-14T18:20:19.501+03:00  INFO 11050 --- [courses_system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-09-14T18:20:19.559+03:00  INFO 11050 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : Started CoursesSystemApplication in 52.172 seconds (process running for 58.053)
-2025-09-14T18:21:52.732+03:00  INFO 11050 --- [courses_system] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-09-14T18:21:52.773+03:00  INFO 11050 --- [courses_system] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-09-14T18:21:52.785+03:00  INFO 11050 --- [courses_system] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
-2025-09-14T18:25:26.830+03:00  WARN 11050 --- [courses_system] [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23505
-2025-09-14T18:25:26.833+03:00 ERROR 11050 --- [courses_system] [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: duplicate key value violates unique constraint "ukfmnrnqscmgmb1ht3kirjbjwl"
-  Detail: Key (title)=(ADMIN) already exists.
-2025-09-14T18:31:21.301+03:00  INFO 11050 --- [courses_system] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-09-14T18:31:21.601+03:00  INFO 11050 --- [courses_system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-09-14T18:31:21.874+03:00  INFO 11050 --- [courses_system] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-09-14T18:31:22.120+03:00  INFO 11050 --- [courses_system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-09-14T18:31:22.348+03:00  INFO 11050 --- [courses_system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-09-14T18:31:56.268+03:00  INFO 11487 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : Starting CoursesSystemApplication using Java 21.0.7 with PID 11487 (/home/ahmed/mySpringProject/courses_system/courses_system/target/classes started by ahmed in /home/ahmed/mySpringProject/courses_system)
-2025-09-14T18:31:56.300+03:00  INFO 11487 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-09-14T18:32:04.960+03:00  INFO 11487 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-14T18:32:05.727+03:00  INFO 11487 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 675 ms. Found 6 JPA repository interfaces.
-2025-09-14T18:32:11.812+03:00  INFO 11487 --- [courses_system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-09-14T18:32:11.914+03:00  INFO 11487 --- [courses_system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-09-14T18:32:11.916+03:00  INFO 11487 --- [courses_system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-09-14T18:32:12.586+03:00  INFO 11487 --- [courses_system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-09-14T18:32:12.590+03:00  INFO 11487 --- [courses_system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 15397 ms
-2025-09-14T18:32:14.454+03:00  INFO 11487 --- [courses_system] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-14T18:32:14.960+03:00  INFO 11487 --- [courses_system] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
-2025-09-14T18:32:15.161+03:00  INFO 11487 --- [courses_system] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-09-14T18:32:17.904+03:00  INFO 11487 --- [courses_system] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-14T18:32:18.274+03:00  INFO 11487 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-09-14T18:32:21.366+03:00  INFO 11487 --- [courses_system] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4ae49387
-2025-09-14T18:32:21.376+03:00  INFO 11487 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-09-14T18:32:21.747+03:00  WARN 11487 --- [courses_system] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-09-14T18:32:21.936+03:00  INFO 11487 --- [courses_system] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-09-15T11:09:10.530+03:00  INFO 4438 --- [courses_system] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-09-15T11:09:14.146+03:00  INFO 4438 --- [courses_system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-15T11:09:14.192+03:00  INFO 4438 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : Started CoursesSystemApplication in 47.054 seconds (process running for 51.043)
+2025-09-15T11:09:30.777+03:00  INFO 4438 --- [courses_system] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-15T11:09:30.780+03:00  INFO 4438 --- [courses_system] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-15T11:09:30.791+03:00  INFO 4438 --- [courses_system] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2025-09-15T11:22:47.368+03:00  INFO 4438 --- [courses_system] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-15T11:22:47.445+03:00  INFO 4438 --- [courses_system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-15T11:22:47.502+03:00  INFO 4438 --- [courses_system] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-15T11:22:47.517+03:00  INFO 4438 --- [courses_system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-15T11:22:47.642+03:00  INFO 4438 --- [courses_system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-15T11:23:16.948+03:00  INFO 4798 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : Starting CoursesSystemApplication using Java 21.0.7 with PID 4798 (/home/ahmed/mySpringProject/courses_system/courses_system/target/classes started by ahmed in /home/ahmed/mySpringProject/courses_system)
+2025-09-15T11:23:16.962+03:00  INFO 4798 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-09-15T11:23:24.362+03:00  INFO 4798 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-15T11:23:24.836+03:00  INFO 4798 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 379 ms. Found 6 JPA repository interfaces.
+2025-09-15T11:23:29.079+03:00  INFO 4798 --- [courses_system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-15T11:23:29.193+03:00  INFO 4798 --- [courses_system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-15T11:23:29.196+03:00  INFO 4798 --- [courses_system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-15T11:23:29.489+03:00  INFO 4798 --- [courses_system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-15T11:23:29.492+03:00  INFO 4798 --- [courses_system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 12169 ms
+2025-09-15T11:23:30.691+03:00  INFO 4798 --- [courses_system] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-15T11:23:31.048+03:00  INFO 4798 --- [courses_system] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-15T11:23:31.248+03:00  INFO 4798 --- [courses_system] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-15T11:23:33.095+03:00  INFO 4798 --- [courses_system] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-15T11:23:33.290+03:00  INFO 4798 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-15T11:23:35.461+03:00  INFO 4798 --- [courses_system] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e6d30c0
+2025-09-15T11:23:35.469+03:00  INFO 4798 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-15T11:23:35.679+03:00  WARN 4798 --- [courses_system] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-15T11:23:35.881+03:00  INFO 4798 --- [courses_system] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 16.9
@@ -72,223 +69,36 @@ This generated password is for development use only. Your security configuration
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-09-14T18:32:29.691+03:00  INFO 11487 --- [courses_system] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-14T18:32:32.751+03:00  INFO 11487 --- [courses_system] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-14T18:32:36.491+03:00  INFO 11487 --- [courses_system] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-09-14T18:32:40.813+03:00  WARN 11487 --- [courses_system] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-09-14T18:32:41.103+03:00  WARN 11487 --- [courses_system] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+2025-09-15T11:23:41.691+03:00  INFO 4798 --- [courses_system] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-15T11:23:43.990+03:00  INFO 4798 --- [courses_system] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-15T11:23:46.640+03:00  INFO 4798 --- [courses_system] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-15T11:23:49.725+03:00  WARN 4798 --- [courses_system] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-15T11:23:49.988+03:00  WARN 4798 --- [courses_system] [main] .s.s.UserDetailsServiceAutoConfiguration : 
 
-Using generated security password: 27deb3a3-2762-4cec-8a0a-1026f0aa7e00
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2025-09-14T18:32:41.158+03:00  INFO 11487 --- [courses_system] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-09-14T18:32:45.237+03:00  INFO 11487 --- [courses_system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-09-14T18:32:45.322+03:00  INFO 11487 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : Started CoursesSystemApplication in 53.484 seconds (process running for 58.166)
-2025-09-14T18:33:22.702+03:00  INFO 11487 --- [courses_system] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-09-14T18:33:22.720+03:00  INFO 11487 --- [courses_system] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-09-14T18:33:22.732+03:00  INFO 11487 --- [courses_system] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
-2025-09-14T18:34:58.670+03:00  INFO 11487 --- [courses_system] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-09-14T18:34:58.880+03:00  INFO 11487 --- [courses_system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-09-14T18:34:59.038+03:00  INFO 11487 --- [courses_system] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-09-14T18:34:59.080+03:00  INFO 11487 --- [courses_system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-09-14T18:34:59.507+03:00  INFO 11487 --- [courses_system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-09-14T18:35:34.342+03:00  INFO 11679 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : Starting CoursesSystemApplication using Java 21.0.7 with PID 11679 (/home/ahmed/mySpringProject/courses_system/courses_system/target/classes started by ahmed in /home/ahmed/mySpringProject/courses_system)
-2025-09-14T18:35:34.362+03:00  INFO 11679 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-09-14T18:35:43.856+03:00  INFO 11679 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-14T18:35:44.430+03:00  INFO 11679 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 500 ms. Found 6 JPA repository interfaces.
-2025-09-14T18:35:49.891+03:00  INFO 11679 --- [courses_system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-09-14T18:35:50.061+03:00  INFO 11679 --- [courses_system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-09-14T18:35:50.062+03:00  INFO 11679 --- [courses_system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-09-14T18:35:50.458+03:00  INFO 11679 --- [courses_system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-09-14T18:35:50.461+03:00  INFO 11679 --- [courses_system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 15624 ms
-2025-09-14T18:35:52.051+03:00  INFO 11679 --- [courses_system] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-14T18:35:52.640+03:00  INFO 11679 --- [courses_system] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
-2025-09-14T18:35:52.830+03:00  INFO 11679 --- [courses_system] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-09-14T18:35:55.496+03:00  INFO 11679 --- [courses_system] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-14T18:35:55.829+03:00  INFO 11679 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-09-14T18:35:59.055+03:00  INFO 11679 --- [courses_system] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@38ef1a0a
-2025-09-14T18:35:59.063+03:00  INFO 11679 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-09-14T18:35:59.480+03:00  WARN 11679 --- [courses_system] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-09-14T18:35:59.647+03:00  INFO 11679 --- [courses_system] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 16.9
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-09-14T18:36:08.285+03:00  INFO 11679 --- [courses_system] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-14T18:36:10.756+03:00  INFO 11679 --- [courses_system] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-14T18:36:14.674+03:00  INFO 11679 --- [courses_system] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-09-14T18:36:18.397+03:00  WARN 11679 --- [courses_system] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-09-14T18:36:18.712+03:00  WARN 11679 --- [courses_system] [main] .s.s.UserDetailsServiceAutoConfiguration : 
-
-Using generated security password: 405e1ab0-07d8-4ed4-b2d7-07b49cda7c8f
+Using generated security password: 10da9358-c35b-4ae6-9b02-b78afe1514eb
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-2025-09-14T18:36:18.756+03:00  INFO 11679 --- [courses_system] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-09-14T18:36:23.162+03:00  INFO 11679 --- [courses_system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-09-14T18:36:23.217+03:00  INFO 11679 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : Started CoursesSystemApplication in 53.61 seconds (process running for 59.958)
-2025-09-14T18:37:04.957+03:00  INFO 11679 --- [courses_system] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-09-14T18:37:04.959+03:00  INFO 11679 --- [courses_system] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-09-14T18:37:04.968+03:00  INFO 11679 --- [courses_system] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2025-09-14T18:40:05.409+03:00  INFO 11679 --- [courses_system] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-09-14T18:40:05.622+03:00  INFO 11679 --- [courses_system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-09-14T18:40:05.693+03:00  INFO 11679 --- [courses_system] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-09-14T18:40:05.722+03:00  INFO 11679 --- [courses_system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-09-14T18:40:05.902+03:00  INFO 11679 --- [courses_system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-09-14T18:46:14.237+03:00  INFO 12116 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : Starting CoursesSystemApplication using Java 21.0.7 with PID 12116 (/home/ahmed/mySpringProject/courses_system/courses_system/target/classes started by ahmed in /home/ahmed/mySpringProject/courses_system)
-2025-09-14T18:46:14.331+03:00  INFO 12116 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-09-14T18:46:23.590+03:00  INFO 12116 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-14T18:46:24.376+03:00  INFO 12116 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 726 ms. Found 6 JPA repository interfaces.
-2025-09-14T18:46:29.527+03:00  INFO 12116 --- [courses_system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-09-14T18:46:29.619+03:00  INFO 12116 --- [courses_system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-09-14T18:46:29.621+03:00  INFO 12116 --- [courses_system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-09-14T18:46:29.940+03:00  INFO 12116 --- [courses_system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-09-14T18:46:29.946+03:00  INFO 12116 --- [courses_system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 14953 ms
-2025-09-14T18:46:31.161+03:00  INFO 12116 --- [courses_system] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-14T18:46:31.579+03:00  INFO 12116 --- [courses_system] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
-2025-09-14T18:46:31.820+03:00  INFO 12116 --- [courses_system] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-09-14T18:46:34.070+03:00  INFO 12116 --- [courses_system] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-14T18:46:34.325+03:00  INFO 12116 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-09-14T18:46:36.827+03:00  INFO 12116 --- [courses_system] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2b5f8e61
-2025-09-14T18:46:36.841+03:00  INFO 12116 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-09-14T18:46:37.282+03:00  WARN 12116 --- [courses_system] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-09-14T18:46:37.452+03:00  INFO 12116 --- [courses_system] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 16.9
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-09-14T18:46:44.514+03:00  INFO 12116 --- [courses_system] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-14T18:46:47.394+03:00  INFO 12116 --- [courses_system] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-14T18:46:50.769+03:00  INFO 12116 --- [courses_system] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-09-14T18:46:56.216+03:00  WARN 12116 --- [courses_system] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-09-14T18:46:57.774+03:00  WARN 12116 --- [courses_system] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+2025-09-15T11:23:50.024+03:00  INFO 4798 --- [courses_system] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-09-15T11:23:53.216+03:00  INFO 4798 --- [courses_system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-15T11:23:53.255+03:00  INFO 4798 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : Started CoursesSystemApplication in 39.867 seconds (process running for 44.168)
+2025-09-15T11:24:10.630+03:00  INFO 4798 --- [courses_system] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-15T11:24:10.635+03:00  INFO 4798 --- [courses_system] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-15T11:24:10.666+03:00  INFO 4798 --- [courses_system] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 31 ms
+2025-09-15T11:26:42.069+03:00 ERROR 4798 --- [courses_system] [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
 
-Using generated security password: bf254063-c6b5-41a6-a229-beaa593dd33e
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2025-09-14T18:46:57.968+03:00  INFO 12116 --- [courses_system] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-09-14T18:47:06.567+03:00  INFO 12116 --- [courses_system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-09-14T18:47:06.687+03:00  INFO 12116 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : Started CoursesSystemApplication in 58.6 seconds (process running for 65.187)
-2025-09-14T18:47:30.430+03:00  INFO 12116 --- [courses_system] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-09-14T18:47:30.439+03:00  INFO 12116 --- [courses_system] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-09-14T18:47:30.455+03:00  INFO 12116 --- [courses_system] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2025-09-14T19:08:03.037+03:00  INFO 12116 --- [courses_system] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-09-14T19:08:03.396+03:00  INFO 12116 --- [courses_system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-09-14T19:08:03.627+03:00  INFO 12116 --- [courses_system] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-09-14T19:08:03.741+03:00  INFO 12116 --- [courses_system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-09-14T19:08:03.914+03:00  INFO 12116 --- [courses_system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-09-14T20:03:14.778+03:00  INFO 14248 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : Starting CoursesSystemApplication using Java 21.0.7 with PID 14248 (/home/ahmed/mySpringProject/courses_system/courses_system/target/classes started by ahmed in /home/ahmed/mySpringProject/courses_system)
-2025-09-14T20:03:14.905+03:00  INFO 14248 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-09-14T20:03:32.779+03:00  INFO 14248 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-14T20:03:35.032+03:00  INFO 14248 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2032 ms. Found 6 JPA repository interfaces.
-2025-09-14T20:03:44.022+03:00  INFO 14248 --- [courses_system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-09-14T20:03:44.182+03:00  INFO 14248 --- [courses_system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-09-14T20:03:44.187+03:00  INFO 14248 --- [courses_system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-09-14T20:03:44.893+03:00  INFO 14248 --- [courses_system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-09-14T20:03:44.899+03:00  INFO 14248 --- [courses_system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 28982 ms
-2025-09-14T20:03:46.615+03:00  INFO 14248 --- [courses_system] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-14T20:03:47.139+03:00  INFO 14248 --- [courses_system] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
-2025-09-14T20:03:47.480+03:00  INFO 14248 --- [courses_system] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-09-14T20:03:49.894+03:00  INFO 14248 --- [courses_system] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-14T20:03:50.348+03:00  INFO 14248 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-09-14T20:03:54.546+03:00  INFO 14248 --- [courses_system] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@a4df251
-2025-09-14T20:03:54.587+03:00  INFO 14248 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-09-14T20:03:55.276+03:00  WARN 14248 --- [courses_system] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-09-14T20:03:55.689+03:00  INFO 14248 --- [courses_system] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 16.9
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-09-14T20:04:05.640+03:00  INFO 14248 --- [courses_system] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-14T20:04:08.434+03:00  INFO 14248 --- [courses_system] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-14T20:04:12.540+03:00  INFO 14248 --- [courses_system] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-09-14T20:04:17.110+03:00  WARN 14248 --- [courses_system] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-09-14T20:04:17.449+03:00  WARN 14248 --- [courses_system] [main] .s.s.UserDetailsServiceAutoConfiguration : 
-
-Using generated security password: ab38e6de-8c76-4497-ac33-d7c063125b95
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2025-09-14T20:04:17.520+03:00  INFO 14248 --- [courses_system] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-09-14T20:04:25.365+03:00  INFO 14248 --- [courses_system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-09-14T20:04:25.460+03:00  INFO 14248 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : Started CoursesSystemApplication in 76.419 seconds (process running for 80.648)
-2025-09-14T20:04:52.918+03:00  INFO 14248 --- [courses_system] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-09-14T20:04:52.967+03:00  INFO 14248 --- [courses_system] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-09-14T20:04:53.073+03:00  INFO 14248 --- [courses_system] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 90 ms
-2025-09-14T20:23:49.387+03:00  INFO 14248 --- [courses_system] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-09-14T20:23:49.785+03:00  INFO 14248 --- [courses_system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-09-14T20:23:50.307+03:00  INFO 14248 --- [courses_system] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-09-14T20:23:50.500+03:00  INFO 14248 --- [courses_system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-09-14T20:23:50.857+03:00  INFO 14248 --- [courses_system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-09-14T21:31:37.204+03:00  INFO 15890 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : Starting CoursesSystemApplication using Java 21.0.7 with PID 15890 (/home/ahmed/mySpringProject/courses_system/courses_system/target/classes started by ahmed in /home/ahmed/mySpringProject/courses_system)
-2025-09-14T21:31:37.252+03:00  INFO 15890 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-09-14T21:31:47.064+03:00  INFO 15890 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-14T21:31:48.368+03:00  INFO 15890 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1211 ms. Found 6 JPA repository interfaces.
-2025-09-14T21:31:55.151+03:00  INFO 15890 --- [courses_system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-09-14T21:31:55.306+03:00  INFO 15890 --- [courses_system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-09-14T21:31:55.309+03:00  INFO 15890 --- [courses_system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-09-14T21:31:55.900+03:00  INFO 15890 --- [courses_system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-09-14T21:31:55.906+03:00  INFO 15890 --- [courses_system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 18059 ms
-2025-09-14T21:31:57.526+03:00  INFO 15890 --- [courses_system] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-14T21:31:58.026+03:00  INFO 15890 --- [courses_system] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
-2025-09-14T21:31:58.449+03:00  INFO 15890 --- [courses_system] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-09-14T21:32:00.952+03:00  INFO 15890 --- [courses_system] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-14T21:32:01.213+03:00  INFO 15890 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-09-14T21:32:05.543+03:00  INFO 15890 --- [courses_system] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1b60d324
-2025-09-14T21:32:05.556+03:00  INFO 15890 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-09-14T21:32:06.059+03:00  WARN 15890 --- [courses_system] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-09-14T21:32:06.384+03:00  INFO 15890 --- [courses_system] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 16.9
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-09-14T21:32:15.697+03:00  INFO 15890 --- [courses_system] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-14T21:32:19.253+03:00  INFO 15890 --- [courses_system] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-14T21:32:23.906+03:00  INFO 15890 --- [courses_system] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-09-14T21:32:29.028+03:00  WARN 15890 --- [courses_system] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-09-14T21:32:29.488+03:00  WARN 15890 --- [courses_system] [main] .s.s.UserDetailsServiceAutoConfiguration : 
-
-Using generated security password: f19f8069-4246-4c94-987a-9df9b5d0d407
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2025-09-14T21:32:29.573+03:00  INFO 15890 --- [courses_system] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-09-14T21:32:34.303+03:00  INFO 15890 --- [courses_system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-09-14T21:32:34.358+03:00  INFO 15890 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : Started CoursesSystemApplication in 62.12 seconds (process running for 67.533)
-2025-09-14T21:34:02.387+03:00  INFO 15890 --- [courses_system] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-09-14T21:34:02.487+03:00  INFO 15890 --- [courses_system] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-09-14T21:34:02.508+03:00  INFO 15890 --- [courses_system] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
-2025-09-14T21:37:26.433+03:00 ERROR 15890 --- [courses_system] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
-
-org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.ahmed.courses_system.model.Teacher.roles: could not initialize proxy - no Session
-	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:635) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
-	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:219) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
-	at org.hibernate.collection.spi.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:614) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
-	at org.hibernate.collection.spi.AbstractPersistentCollection.read(AbstractPersistentCollection.java:138) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
-	at org.hibernate.collection.spi.PersistentSet.iterator(PersistentSet.java:166) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
-	at java.base/java.util.Spliterators$IteratorSpliterator.estimateSize(Spliterators.java:1959) ~[na:na]
-	at java.base/java.util.Spliterator.getExactSizeIfKnown(Spliterator.java:414) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.exactOutputSizeIfKnown(AbstractPipeline.java:470) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:574) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[na:na]
-	at com.ahmed.courses_system.config.JwtFilter.doFilterInternal(JwtFilter.java:54) ~[classes/:na]
+java.lang.StringIndexOutOfBoundsException: Range [7, 6) out of bounds for length 6
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349) ~[na:na]
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865) ~[na:na]
+	at java.base/java.lang.String.substring(String.java:2834) ~[na:na]
+	at java.base/java.lang.String.substring(String.java:2807) ~[na:na]
+	at com.ahmed.courses_system.config.JwtFilter.doFilterInternal(JwtFilter.java:38) ~[classes/:na]
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.10.jar:6.2.10]
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.3.jar:6.5.3]
 	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.5.3.jar:6.5.3]
@@ -352,23 +162,20 @@ org.hibernate.LazyInitializationException: failed to lazily initialize a collect
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2025-09-14T21:37:41.756+03:00 ERROR 15890 --- [courses_system] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+2025-09-15T11:26:50.260+03:00 ERROR 4798 --- [courses_system] [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
 
-org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.ahmed.courses_system.model.Teacher.roles: could not initialize proxy - no Session
-	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:635) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
-	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:219) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
-	at org.hibernate.collection.spi.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:614) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
-	at org.hibernate.collection.spi.AbstractPersistentCollection.read(AbstractPersistentCollection.java:138) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
-	at org.hibernate.collection.spi.PersistentSet.iterator(PersistentSet.java:166) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
-	at java.base/java.util.Spliterators$IteratorSpliterator.estimateSize(Spliterators.java:1959) ~[na:na]
-	at java.base/java.util.Spliterator.getExactSizeIfKnown(Spliterator.java:414) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.exactOutputSizeIfKnown(AbstractPipeline.java:470) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:574) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[na:na]
-	at com.ahmed.courses_system.config.JwtFilter.doFilterInternal(JwtFilter.java:54) ~[classes/:na]
+java.lang.StringIndexOutOfBoundsException: Range [7, 6) out of bounds for length 6
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349) ~[na:na]
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865) ~[na:na]
+	at java.base/java.lang.String.substring(String.java:2834) ~[na:na]
+	at java.base/java.lang.String.substring(String.java:2807) ~[na:na]
+	at com.ahmed.courses_system.config.JwtFilter.doFilterInternal(JwtFilter.java:38) ~[classes/:na]
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.10.jar:6.2.10]
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.3.jar:6.5.3]
 	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.5.3.jar:6.5.3]
@@ -432,23 +239,20 @@ org.hibernate.LazyInitializationException: failed to lazily initialize a collect
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2025-09-14T21:38:51.879+03:00 ERROR 15890 --- [courses_system] [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+2025-09-15T11:27:24.624+03:00 ERROR 4798 --- [courses_system] [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
 
-org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.ahmed.courses_system.model.Teacher.roles: could not initialize proxy - no Session
-	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:635) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
-	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:219) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
-	at org.hibernate.collection.spi.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:614) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
-	at org.hibernate.collection.spi.AbstractPersistentCollection.read(AbstractPersistentCollection.java:138) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
-	at org.hibernate.collection.spi.PersistentSet.iterator(PersistentSet.java:166) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
-	at java.base/java.util.Spliterators$IteratorSpliterator.estimateSize(Spliterators.java:1959) ~[na:na]
-	at java.base/java.util.Spliterator.getExactSizeIfKnown(Spliterator.java:414) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.exactOutputSizeIfKnown(AbstractPipeline.java:470) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:574) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[na:na]
-	at com.ahmed.courses_system.config.JwtFilter.doFilterInternal(JwtFilter.java:54) ~[classes/:na]
+java.lang.StringIndexOutOfBoundsException: Range [7, 6) out of bounds for length 6
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349) ~[na:na]
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865) ~[na:na]
+	at java.base/java.lang.String.substring(String.java:2834) ~[na:na]
+	at java.base/java.lang.String.substring(String.java:2807) ~[na:na]
+	at com.ahmed.courses_system.config.JwtFilter.doFilterInternal(JwtFilter.java:38) ~[classes/:na]
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.10.jar:6.2.10]
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.3.jar:6.5.3]
 	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.5.3.jar:6.5.3]
@@ -512,29 +316,183 @@ org.hibernate.LazyInitializationException: failed to lazily initialize a collect
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2025-09-14T21:49:11.573+03:00  INFO 15890 --- [courses_system] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-09-14T21:49:11.959+03:00  INFO 15890 --- [courses_system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-09-14T21:49:12.197+03:00  INFO 15890 --- [courses_system] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-09-14T21:49:12.317+03:00  INFO 15890 --- [courses_system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-09-14T21:49:12.519+03:00  INFO 15890 --- [courses_system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-09-14T21:50:07.888+03:00  INFO 16900 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : Starting CoursesSystemApplication using Java 21.0.7 with PID 16900 (/home/ahmed/mySpringProject/courses_system/courses_system/target/classes started by ahmed in /home/ahmed/mySpringProject/courses_system)
-2025-09-14T21:50:07.908+03:00  INFO 16900 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-09-14T21:50:17.414+03:00  INFO 16900 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-14T21:50:18.281+03:00  INFO 16900 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 754 ms. Found 6 JPA repository interfaces.
-2025-09-14T21:50:25.288+03:00  INFO 16900 --- [courses_system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-09-14T21:50:25.519+03:00  INFO 16900 --- [courses_system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-09-14T21:50:25.525+03:00  INFO 16900 --- [courses_system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-09-14T21:50:26.611+03:00  INFO 16900 --- [courses_system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-09-14T21:50:26.616+03:00  INFO 16900 --- [courses_system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 18204 ms
-2025-09-14T21:50:28.539+03:00  INFO 16900 --- [courses_system] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-14T21:50:29.315+03:00  INFO 16900 --- [courses_system] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
-2025-09-14T21:50:29.638+03:00  INFO 16900 --- [courses_system] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-09-14T21:50:32.542+03:00  INFO 16900 --- [courses_system] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-14T21:50:32.917+03:00  INFO 16900 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-09-14T21:50:36.969+03:00  INFO 16900 --- [courses_system] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@603d25db
-2025-09-14T21:50:37.051+03:00  INFO 16900 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-09-14T21:50:37.826+03:00  WARN 16900 --- [courses_system] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-09-14T21:50:38.257+03:00  INFO 16900 --- [courses_system] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-09-15T11:27:45.596+03:00 ERROR 4798 --- [courses_system] [http-nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.lang.StringIndexOutOfBoundsException: Range [7, 6) out of bounds for length 6
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349) ~[na:na]
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865) ~[na:na]
+	at java.base/java.lang.String.substring(String.java:2834) ~[na:na]
+	at java.base/java.lang.String.substring(String.java:2807) ~[na:na]
+	at com.ahmed.courses_system.config.JwtFilter.doFilterInternal(JwtFilter.java:38) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319) ~[spring-security-config-6.5.3.jar:6.5.3]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267) ~[spring-webmvc-6.2.10.jar:6.2.10]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240) ~[spring-security-config-6.5.3.jar:6.5.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-09-15T11:32:26.730+03:00 ERROR 4798 --- [courses_system] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.lang.StringIndexOutOfBoundsException: Range [7, 6) out of bounds for length 6
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349) ~[na:na]
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865) ~[na:na]
+	at java.base/java.lang.String.substring(String.java:2834) ~[na:na]
+	at java.base/java.lang.String.substring(String.java:2807) ~[na:na]
+	at com.ahmed.courses_system.config.JwtFilter.doFilterInternal(JwtFilter.java:38) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.5.3.jar:6.5.3]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319) ~[spring-security-config-6.5.3.jar:6.5.3]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267) ~[spring-webmvc-6.2.10.jar:6.2.10]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240) ~[spring-security-config-6.5.3.jar:6.5.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-09-15T11:36:45.342+03:00  INFO 4798 --- [courses_system] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-15T11:36:45.795+03:00  INFO 4798 --- [courses_system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-15T11:36:45.924+03:00  INFO 4798 --- [courses_system] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-15T11:36:46.001+03:00  INFO 4798 --- [courses_system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-15T11:36:46.164+03:00  INFO 4798 --- [courses_system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-15T11:41:41.702+03:00  INFO 5727 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : Starting CoursesSystemApplication using Java 21.0.7 with PID 5727 (/home/ahmed/mySpringProject/courses_system/courses_system/target/classes started by ahmed in /home/ahmed/mySpringProject/courses_system)
+2025-09-15T11:41:41.711+03:00  INFO 5727 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-09-15T11:41:49.740+03:00  INFO 5727 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-15T11:41:50.304+03:00  INFO 5727 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 482 ms. Found 6 JPA repository interfaces.
+2025-09-15T11:41:55.292+03:00  INFO 5727 --- [courses_system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-15T11:41:55.445+03:00  INFO 5727 --- [courses_system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-15T11:41:55.446+03:00  INFO 5727 --- [courses_system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-15T11:41:55.836+03:00  INFO 5727 --- [courses_system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-15T11:41:55.839+03:00  INFO 5727 --- [courses_system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 13647 ms
+2025-09-15T11:41:57.558+03:00  INFO 5727 --- [courses_system] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-15T11:41:57.993+03:00  INFO 5727 --- [courses_system] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-15T11:41:58.375+03:00  INFO 5727 --- [courses_system] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-15T11:42:00.072+03:00  INFO 5727 --- [courses_system] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-15T11:42:00.241+03:00  INFO 5727 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-15T11:42:02.682+03:00  INFO 5727 --- [courses_system] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@603d25db
+2025-09-15T11:42:02.690+03:00  INFO 5727 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-15T11:42:03.022+03:00  WARN 5727 --- [courses_system] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-15T11:42:03.292+03:00  INFO 5727 --- [courses_system] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 16.9
@@ -542,30 +500,36 @@ org.hibernate.LazyInitializationException: failed to lazily initialize a collect
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-09-14T21:50:48.045+03:00  INFO 16900 --- [courses_system] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-14T21:50:51.091+03:00  INFO 16900 --- [courses_system] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-14T21:50:55.764+03:00  INFO 16900 --- [courses_system] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-09-14T21:51:01.744+03:00  WARN 16900 --- [courses_system] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-09-14T21:51:02.192+03:00  WARN 16900 --- [courses_system] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+2025-09-15T11:42:08.722+03:00  INFO 5727 --- [courses_system] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-15T11:42:10.998+03:00  INFO 5727 --- [courses_system] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-15T11:42:13.724+03:00  INFO 5727 --- [courses_system] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-15T11:42:16.836+03:00  WARN 5727 --- [courses_system] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-15T11:42:17.086+03:00  WARN 5727 --- [courses_system] [main] .s.s.UserDetailsServiceAutoConfiguration : 
 
-Using generated security password: 0381a739-89d0-432a-ba2e-6e9b6809eaf0
+Using generated security password: 41a607e5-0b9c-4925-9353-765cdc51c21a
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-2025-09-14T21:51:02.287+03:00  INFO 16900 --- [courses_system] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-09-14T21:51:06.823+03:00  INFO 16900 --- [courses_system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-09-14T21:51:06.876+03:00  INFO 16900 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : Started CoursesSystemApplication in 63.7 seconds (process running for 68.375)
-2025-09-14T21:51:41.120+03:00  INFO 16900 --- [courses_system] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-09-14T21:51:41.163+03:00  INFO 16900 --- [courses_system] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-09-14T21:51:41.268+03:00  INFO 16900 --- [courses_system] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 84 ms
-2025-09-14T21:52:23.901+03:00 ERROR 16900 --- [courses_system] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+2025-09-15T11:42:17.118+03:00  INFO 5727 --- [courses_system] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-09-15T11:42:20.403+03:00  INFO 5727 --- [courses_system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-15T11:42:20.450+03:00  INFO 5727 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : Started CoursesSystemApplication in 42.502 seconds (process running for 49.637)
+2025-09-15T11:43:19.891+03:00  INFO 5727 --- [courses_system] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-15T11:43:19.892+03:00  INFO 5727 --- [courses_system] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-15T11:43:19.913+03:00  INFO 5727 --- [courses_system] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2025-09-15T11:43:20.388+03:00 ERROR 5727 --- [courses_system] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
 
-org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.ahmed.courses_system.model.Teacher.roles: could not initialize proxy - no Session
-	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:635) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
-	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:219) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
-	at org.hibernate.collection.spi.AbstractPersistentCollection.readSize(AbstractPersistentCollection.java:150) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
-	at org.hibernate.collection.spi.PersistentSet.size(PersistentSet.java:148) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
-	at com.ahmed.courses_system.config.JwtFilter.doFilterInternal(JwtFilter.java:53) ~[classes/:na]
+java.lang.StringIndexOutOfBoundsException: Range [7, 6) out of bounds for length 6
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349) ~[na:na]
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865) ~[na:na]
+	at java.base/java.lang.String.substring(String.java:2834) ~[na:na]
+	at java.base/java.lang.String.substring(String.java:2807) ~[na:na]
+	at com.ahmed.courses_system.config.JwtFilter.doFilterInternal(JwtFilter.java:38) ~[classes/:na]
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.10.jar:6.2.10]
 	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.3.jar:6.5.3]
 	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.5.3.jar:6.5.3]
@@ -629,290 +593,8 @@ org.hibernate.LazyInitializationException: failed to lazily initialize a collect
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2025-09-14T21:56:51.684+03:00  INFO 16900 --- [courses_system] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-09-14T21:56:52.014+03:00  INFO 16900 --- [courses_system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-09-14T21:56:52.192+03:00  INFO 16900 --- [courses_system] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-09-14T21:56:52.316+03:00  INFO 16900 --- [courses_system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-09-14T21:56:52.585+03:00  INFO 16900 --- [courses_system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-09-14T21:57:48.450+03:00  INFO 17126 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : Starting CoursesSystemApplication using Java 21.0.7 with PID 17126 (/home/ahmed/mySpringProject/courses_system/courses_system/target/classes started by ahmed in /home/ahmed/mySpringProject/courses_system)
-2025-09-14T21:57:48.483+03:00  INFO 17126 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-09-14T21:57:59.703+03:00  INFO 17126 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-14T21:58:00.718+03:00  INFO 17126 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 899 ms. Found 6 JPA repository interfaces.
-2025-09-14T21:58:08.327+03:00  INFO 17126 --- [courses_system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-09-14T21:58:08.483+03:00  INFO 17126 --- [courses_system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-09-14T21:58:08.487+03:00  INFO 17126 --- [courses_system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-09-14T21:58:09.653+03:00  INFO 17126 --- [courses_system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-09-14T21:58:09.656+03:00  INFO 17126 --- [courses_system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 20616 ms
-2025-09-14T21:58:12.110+03:00  INFO 17126 --- [courses_system] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-14T21:58:12.772+03:00  INFO 17126 --- [courses_system] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
-2025-09-14T21:58:13.071+03:00  INFO 17126 --- [courses_system] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-09-14T21:58:16.153+03:00  INFO 17126 --- [courses_system] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-14T21:58:16.517+03:00  INFO 17126 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-09-14T21:58:20.952+03:00  INFO 17126 --- [courses_system] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@671da0f9
-2025-09-14T21:58:20.986+03:00  INFO 17126 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-09-14T21:58:21.896+03:00  WARN 17126 --- [courses_system] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-09-14T21:58:22.337+03:00  INFO 17126 --- [courses_system] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 16.9
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-09-14T21:58:31.353+03:00  INFO 17126 --- [courses_system] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-14T21:58:34.597+03:00  INFO 17126 --- [courses_system] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-14T21:58:37.424+03:00  WARN 17126 --- [courses_system] [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.web.filter.GenericFilterBean.init(jakarta.servlet.FilterConfig) throws jakarta.servlet.ServletException] because it is marked as final, consider using interface-based JDK proxies instead.
-2025-09-14T21:58:38.046+03:00 ERROR 17126 --- [courses_system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Exception starting filter [jwtFilter]
-
-java.lang.NullPointerException: Cannot invoke "org.apache.commons.logging.Log.isDebugEnabled()" because "this.logger" is null
-	at org.springframework.web.filter.GenericFilterBean.init(GenericFilterBean.java:239) ~[spring-web-6.2.10.jar:6.2.10]
-	at org.apache.catalina.core.ApplicationFilterConfig.initFilter(ApplicationFilterConfig.java:240) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:102) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:3895) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4500) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:438) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:517) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:219) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-6.2.10.jar:6.2.10]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.5.jar:3.5.5]
-	at com.ahmed.courses_system.CoursesSystemApplication.main(CoursesSystemApplication.java:10) ~[classes/:na]
-
-2025-09-14T21:58:38.094+03:00 ERROR 17126 --- [courses_system] [main] o.apache.catalina.core.StandardContext   : One or more Filters failed to start. Full details will be found in the appropriate container log file
-2025-09-14T21:58:38.102+03:00 ERROR 17126 --- [courses_system] [main] o.apache.catalina.core.StandardContext   : Context [] startup failed due to previous errors
-2025-09-14T21:58:38.149+03:00  WARN 17126 --- [courses_system] [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-1:housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
- java.base/jdk.internal.misc.Unsafe.park(Native Method)
- java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
- java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
- java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
- java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
- java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
- java.base/java.lang.Thread.run(Thread.java:1583)
-2025-09-14T21:58:38.389+03:00  INFO 17126 --- [courses_system] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2025-09-14T21:58:38.447+03:00  WARN 17126 --- [courses_system] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
-2025-09-14T21:58:38.451+03:00  INFO 17126 --- [courses_system] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-09-14T21:58:38.462+03:00  INFO 17126 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-09-14T21:58:38.706+03:00  INFO 17126 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-09-14T21:58:38.774+03:00  INFO 17126 --- [courses_system] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-09-14T21:58:38.955+03:00 ERROR 17126 --- [courses_system] [main] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.context.ApplicationContextException: Unable to start web server
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:170) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-6.2.10.jar:6.2.10]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.5.jar:3.5.5]
-	at com.ahmed.courses_system.CoursesSystemApplication.main(CoursesSystemApplication.java:10) ~[classes/:na]
-Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:147) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:517) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:219) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167) ~[spring-boot-3.5.5.jar:3.5.5]
-	... 8 common frames omitted
-Caused by: java.lang.IllegalStateException: StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[] failed to start
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.rethrowDeferredStartupExceptions(TomcatWebServer.java:209) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:131) ~[spring-boot-3.5.5.jar:3.5.5]
-	... 13 common frames omitted
-
-2025-09-14T21:59:57.952+03:00  INFO 17236 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : Starting CoursesSystemApplication using Java 21.0.7 with PID 17236 (/home/ahmed/mySpringProject/courses_system/courses_system/target/classes started by ahmed in /home/ahmed/mySpringProject/courses_system)
-2025-09-14T21:59:57.987+03:00  INFO 17236 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-09-14T22:00:07.721+03:00  INFO 17236 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-14T22:00:08.344+03:00  INFO 17236 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 535 ms. Found 6 JPA repository interfaces.
-2025-09-14T22:00:14.415+03:00  INFO 17236 --- [courses_system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-09-14T22:00:14.509+03:00  INFO 17236 --- [courses_system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-09-14T22:00:14.511+03:00  INFO 17236 --- [courses_system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-09-14T22:00:14.821+03:00  INFO 17236 --- [courses_system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-09-14T22:00:14.824+03:00  INFO 17236 --- [courses_system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 16137 ms
-2025-09-14T22:00:16.575+03:00  INFO 17236 --- [courses_system] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-14T22:00:16.955+03:00  INFO 17236 --- [courses_system] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
-2025-09-14T22:00:17.276+03:00  INFO 17236 --- [courses_system] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-09-14T22:00:19.694+03:00  INFO 17236 --- [courses_system] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-14T22:00:19.917+03:00  INFO 17236 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-09-14T22:00:23.283+03:00  INFO 17236 --- [courses_system] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6cc8da1c
-2025-09-14T22:00:23.300+03:00  INFO 17236 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-09-14T22:00:23.718+03:00  WARN 17236 --- [courses_system] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-09-14T22:00:23.973+03:00  INFO 17236 --- [courses_system] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 16.9
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-09-14T22:00:33.989+03:00  INFO 17236 --- [courses_system] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-14T22:00:37.491+03:00  INFO 17236 --- [courses_system] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-14T22:00:40.700+03:00  WARN 17236 --- [courses_system] [main] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.web.filter.GenericFilterBean.init(jakarta.servlet.FilterConfig) throws jakarta.servlet.ServletException] because it is marked as final, consider using interface-based JDK proxies instead.
-2025-09-14T22:00:41.341+03:00 ERROR 17236 --- [courses_system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Exception starting filter [jwtFilter]
-
-java.lang.NullPointerException: Cannot invoke "org.apache.commons.logging.Log.isDebugEnabled()" because "this.logger" is null
-	at org.springframework.web.filter.GenericFilterBean.init(GenericFilterBean.java:239) ~[spring-web-6.2.10.jar:6.2.10]
-	at org.apache.catalina.core.ApplicationFilterConfig.initFilter(ApplicationFilterConfig.java:240) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:102) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:3895) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4500) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:438) ~[tomcat-embed-core-10.1.44.jar:10.1.44]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:517) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:219) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-6.2.10.jar:6.2.10]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.5.jar:3.5.5]
-	at com.ahmed.courses_system.CoursesSystemApplication.main(CoursesSystemApplication.java:10) ~[classes/:na]
-
-2025-09-14T22:00:41.392+03:00 ERROR 17236 --- [courses_system] [main] o.apache.catalina.core.StandardContext   : One or more Filters failed to start. Full details will be found in the appropriate container log file
-2025-09-14T22:00:41.394+03:00 ERROR 17236 --- [courses_system] [main] o.apache.catalina.core.StandardContext   : Context [] startup failed due to previous errors
-2025-09-14T22:00:41.414+03:00  WARN 17236 --- [courses_system] [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-1:housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
- java.base/jdk.internal.misc.Unsafe.park(Native Method)
- java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
- java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
- java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
- java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
- java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
- java.base/java.lang.Thread.run(Thread.java:1583)
-2025-09-14T22:00:41.645+03:00  INFO 17236 --- [courses_system] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2025-09-14T22:00:41.691+03:00  WARN 17236 --- [courses_system] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
-2025-09-14T22:00:41.699+03:00  INFO 17236 --- [courses_system] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-09-14T22:00:41.720+03:00  INFO 17236 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-09-14T22:00:41.889+03:00  INFO 17236 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-09-14T22:00:42.019+03:00  INFO 17236 --- [courses_system] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-09-14T22:00:42.236+03:00 ERROR 17236 --- [courses_system] [main] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.context.ApplicationContextException: Unable to start web server
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:170) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-6.2.10.jar:6.2.10]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.5.jar:3.5.5]
-	at com.ahmed.courses_system.CoursesSystemApplication.main(CoursesSystemApplication.java:10) ~[classes/:na]
-Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:147) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:517) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:219) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167) ~[spring-boot-3.5.5.jar:3.5.5]
-	... 8 common frames omitted
-Caused by: java.lang.IllegalStateException: StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[] failed to start
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.rethrowDeferredStartupExceptions(TomcatWebServer.java:209) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:131) ~[spring-boot-3.5.5.jar:3.5.5]
-	... 13 common frames omitted
-
-2025-09-14T22:03:31.853+03:00  INFO 17380 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : Starting CoursesSystemApplication using Java 21.0.7 with PID 17380 (/home/ahmed/mySpringProject/courses_system/courses_system/target/classes started by ahmed in /home/ahmed/mySpringProject/courses_system)
-2025-09-14T22:03:31.936+03:00  INFO 17380 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-09-14T22:03:41.698+03:00  INFO 17380 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-14T22:03:42.534+03:00  INFO 17380 --- [courses_system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 766 ms. Found 6 JPA repository interfaces.
-2025-09-14T22:03:50.264+03:00  INFO 17380 --- [courses_system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-09-14T22:03:50.424+03:00  INFO 17380 --- [courses_system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-09-14T22:03:50.432+03:00  INFO 17380 --- [courses_system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-09-14T22:03:51.357+03:00  INFO 17380 --- [courses_system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-09-14T22:03:51.367+03:00  INFO 17380 --- [courses_system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 18928 ms
-2025-09-14T22:03:53.423+03:00  INFO 17380 --- [courses_system] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-14T22:03:54.273+03:00  INFO 17380 --- [courses_system] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
-2025-09-14T22:03:54.549+03:00  INFO 17380 --- [courses_system] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-09-14T22:03:57.880+03:00  INFO 17380 --- [courses_system] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-14T22:03:58.164+03:00  INFO 17380 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-09-14T22:04:03.146+03:00  INFO 17380 --- [courses_system] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@517a46f3
-2025-09-14T22:04:03.168+03:00  INFO 17380 --- [courses_system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-09-14T22:04:03.689+03:00  WARN 17380 --- [courses_system] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-09-14T22:04:03.983+03:00  INFO 17380 --- [courses_system] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 16.9
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-09-14T22:04:12.950+03:00  INFO 17380 --- [courses_system] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-14T22:04:15.523+03:00  INFO 17380 --- [courses_system] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-14T22:04:20.417+03:00  INFO 17380 --- [courses_system] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-09-14T22:04:25.322+03:00  WARN 17380 --- [courses_system] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-09-14T22:04:25.767+03:00  WARN 17380 --- [courses_system] [main] .s.s.UserDetailsServiceAutoConfiguration : 
-
-Using generated security password: b7eb15da-5068-4455-a19b-998b2da4adf6
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2025-09-14T22:04:25.833+03:00  INFO 17380 --- [courses_system] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-09-14T22:04:33.407+03:00  INFO 17380 --- [courses_system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-09-14T22:04:33.564+03:00  INFO 17380 --- [courses_system] [main] c.a.c.CoursesSystemApplication           : Started CoursesSystemApplication in 66.522 seconds (process running for 72.628)
-2025-09-14T22:05:14.373+03:00  INFO 17380 --- [courses_system] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-09-14T22:05:14.385+03:00  INFO 17380 --- [courses_system] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-09-14T22:05:14.423+03:00  INFO 17380 --- [courses_system] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 37 ms
-2025-09-14T22:07:00.894+03:00  INFO 17380 --- [courses_system] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-09-14T22:07:01.188+03:00  INFO 17380 --- [courses_system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-09-14T22:07:01.258+03:00  INFO 17380 --- [courses_system] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-09-14T22:07:01.299+03:00  INFO 17380 --- [courses_system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-09-14T22:07:01.538+03:00  INFO 17380 --- [courses_system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-15T11:58:03.721+03:00  INFO 5727 --- [courses_system] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-15T11:58:03.807+03:00  INFO 5727 --- [courses_system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-15T11:58:03.869+03:00  INFO 5727 --- [courses_system] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-15T11:58:03.889+03:00  INFO 5727 --- [courses_system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-15T11:58:04.012+03:00  INFO 5727 --- [courses_system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
